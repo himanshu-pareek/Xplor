@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Extra" >
+        <menu >
+            <item
+                android:id="@+id/nav_event_list"
+                android:icon="@drawable/ic_list_black_24dp"
+                android:title="Show event list"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share this app" />
+        </menu>
+    </item>
+
+</menu>

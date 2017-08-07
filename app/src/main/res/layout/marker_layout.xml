@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="200dp"
+    android:layout_height="75dp"
+    android:id="@+id/layout_marker">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/drop_pin_logo"/>
+
+    <TextView
+        android:id="@+id/marker_text"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:minHeight="75dp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:textSize="24sp"
+        tools:text="This is event title"/>
+
+</LinearLayout>
